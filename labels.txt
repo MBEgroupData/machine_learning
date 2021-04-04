@@ -1,0 +1,6 @@
+0 apple
+1 banana
+2 car
+3 cat
+4 dog
+5 pepper
