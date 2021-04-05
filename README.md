@@ -2,7 +2,7 @@ To clone this repository open a terminal and run:
 
 	git clone https://github.com/MBEgroupData/machine_learning.git
 
-To set-up your coral device run the following commands:
+Then run the following commands to set-up your coral device:
 	
 	cd machine_learning
 	bash setup.sh
