@@ -20,7 +20,6 @@ device setup instructions, see coral.ai/docs/setup.
 
 Example usage:
 ```
-bash examples/install_requirements.sh classify_image.py
 
 python3 examples/classify_image.py \
   --model test_data/mobilenet_v2_1.0_224_inat_bird_quant_edgetpu.tflite  \
@@ -72,7 +71,7 @@ def main():
     start = time.perf_counter()
     interpreter.invoke()
     inference_time = time.perf_counter() - start
-    classes = classify.get_classes(interpreter, args.top_k, args.threshold)
+    classes = classify.get_classes(interpreter)
     print('%.1fms' % (inference_time * 1000))
 
   print('-------RESULTS--------')
