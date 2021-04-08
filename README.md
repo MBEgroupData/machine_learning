@@ -10,8 +10,8 @@ Then run the following commands to set-up your coral device:
 Be sure to disconnect and reconnect your coral device if it was plugged in before running
 the setup commands. 
 
-To run a prediction on the coral device using the model in this repository run
-the following commnad:
+To run a prediction on the coral device using the model in this repository, first make sure you are
+in the machine_learning folder. Then run the following command:
 
 	python3 classify_image.py \
 	--model reduced_object_model_edgetpu.tflite \
